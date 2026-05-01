@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Upload Image";
+}
+
+<h2>Upload Image to Azure Blob Storage</h2>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-success">@ViewBag.Message</div>
+}
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="file">Select Image:</label>
+        <input type="file" name="file" id="file" class="form-control" accept="image/*" />
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Upload</button>
+</form>
+
+@if (ViewBag.ImageUrl != null)
+{
+    <div class="mt-4">
+        <h3>Uploaded Image:</h3>
+        <img src="@ViewBag.ImageUrl" alt="Uploaded" style="max-width: 500px;" class="img-fluid" />
+        <p>URL: @ViewBag.ImageUrl</p>
+    </div>
+}

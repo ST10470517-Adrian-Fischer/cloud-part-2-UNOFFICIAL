@@ -1,0 +1,35 @@
+﻿@model List<string>
+@{
+    ViewData["Title"] = "Image Gallery";
+}
+
+<h2>Image Gallery</h2>
+
+@if (Model == null || !Model.Any())
+{
+    <div class="alert alert-info">
+        <p>No images uploaded yet.</p>
+    </div>
+}
+else
+{
+    <div class="row">
+        @foreach (var imageName in Model)
+        {
+            var imageUrl = $"http://127.0.0.1:10000/devstoreaccount1/venue-images/{imageName}";
+            
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="@imageUrl" class="card-img-top" alt="@imageName" />
+                    <div class="card-body">
+                        <p class="card-text">@imageName</p>
+                        <form method="post" asp-action="Delete">
+                            <input type="hidden" name="blobName" value="@imageName" />
+                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
