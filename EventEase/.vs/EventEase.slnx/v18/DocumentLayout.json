@@ -3,16 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\controllers\\venuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:controllers\\venuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\views\\venues\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\venues\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\views\\events\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\events\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\views\\bookings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\bookings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\views\\venues\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\venues\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\controllers\\venuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:controllers\\venuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,10 +67,6 @@
       "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\views\\venues\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\venues\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\views\\venues\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\venues\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -53,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,20 +99,12 @@
       "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\views\\bookings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\bookings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\views\\events\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\events\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\views\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -115,28 +131,12 @@
       "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\views\\events\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\events\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\views\\events\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\events\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\adria\\onedrive\\documentos\\github\\clddev-poe-part-1-st10470517-adrian-fischer\\eventease\\models\\eventeasemanagingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -150,7 +150,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -162,7 +162,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Venues\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Venues\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Venues\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Venues\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-10T12:02:21.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Upload.cshtml",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Image\\Upload.cshtml",
               "RelativeDocumentMoniker": "Views\\Image\\Upload.cshtml",
@@ -174,116 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T12:02:07.532Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BlobServiceStorageClass.cs",
-              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\services\\BlobServiceStorageClass.cs",
-              "RelativeDocumentMoniker": "services\\BlobServiceStorageClass.cs",
-              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\services\\BlobServiceStorageClass.cs",
-              "RelativeToolTip": "services\\BlobServiceStorageClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T11:51:07.218Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ImageController.cs",
-              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Controllers\\ImageController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ImageController.cs",
-              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Controllers\\ImageController.cs",
-              "RelativeToolTip": "Controllers\\ImageController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwDAAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T11:29:14.448Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Venues\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Venues\\Create.cshtml",
-              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Venues\\Create.cshtml",
-              "RelativeToolTip": "Views\\Venues\\Create.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAcwCIAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T12:02:17.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Venues\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Venues\\Index.cshtml",
-              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Venues\\Index.cshtml",
-              "RelativeToolTip": "Views\\Venues\\Index.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACwAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T12:02:29.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Venues\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Venues\\Details.cshtml",
-              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Venues\\Details.cshtml",
-              "RelativeToolTip": "Views\\Venues\\Details.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T12:02:25.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Venues\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Venues\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Venues\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Venues\\Delete.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T12:02:21.992Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Image\\List.cshtml",
-              "RelativeDocumentMoniker": "Views\\Image\\List.cshtml",
-              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Image\\List.cshtml",
-              "RelativeToolTip": "Views\\Image\\List.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-28T11:09:39.273Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VenuesController.cs",
-              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Controllers\\VenuesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\VenuesController.cs",
-              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Controllers\\VenuesController.cs",
-              "RelativeToolTip": "Controllers\\VenuesController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAswDgAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T12:01:24.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Venues\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Venues\\Edit.cshtml",
@@ -295,7 +199,189 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Bookings\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Bookings\\Create.cshtml",
+              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Bookings\\Create.cshtml",
+              "RelativeToolTip": "Views\\Bookings\\Create.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwCMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T11:49:29.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Venues\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Venues\\Create.cshtml",
+              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Venues\\Create.cshtml",
+              "RelativeToolTip": "Views\\Venues\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwCIAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-10T12:02:17.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Models\\Booking.cs",
+              "RelativeToolTip": "Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T09:06:49.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "Models\\Event.cs",
+              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Models\\Event.cs",
+              "RelativeToolTip": "Models\\Event.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T12:54:05.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "Controllers\\EventsController.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAcwLUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T11:51:26.225Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Events\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Events\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Events\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Events\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-10T12:56:28.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Events\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Events\\Create.cshtml",
+              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Events\\Create.cshtml",
+              "RelativeToolTip": "Views\\Events\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-10T12:55:52.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VenuesController.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Controllers\\VenuesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VenuesController.cs",
+              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Controllers\\VenuesController.cs",
+              "RelativeToolTip": "Controllers\\VenuesController.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAiwK8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T12:01:24.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-10T12:02:07.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "Controllers\\BookingsController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwHcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T11:50:54.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Image\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Image\\List.cshtml",
+              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Image\\List.cshtml",
+              "RelativeToolTip": "Views\\Image\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T11:09:39.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Venues\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Venues\\Details.cshtml",
+              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Venues\\Details.cshtml",
+              "RelativeToolTip": "Views\\Venues\\Details.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-10T12:02:25.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Venues\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Venues\\Index.cshtml",
+              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Venues\\Index.cshtml",
+              "RelativeToolTip": "Views\\Venues\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-10T12:02:29.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ImageController.cs",
+              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "Controllers\\ImageController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwDAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T11:29:14.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BlobServiceStorageClass.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\services\\BlobServiceStorageClass.cs",
+              "RelativeDocumentMoniker": "services\\BlobServiceStorageClass.cs",
+              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\services\\BlobServiceStorageClass.cs",
+              "RelativeToolTip": "services\\BlobServiceStorageClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T11:51:07.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Venue.cs",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Models\\Venue.cs",
               "RelativeDocumentMoniker": "Models\\Venue.cs",
@@ -307,19 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Bookings\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Bookings\\Create.cshtml",
-              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Bookings\\Create.cshtml",
-              "RelativeToolTip": "Views\\Bookings\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-28T11:49:29.008Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -331,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -343,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -355,19 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EventsController.cs",
-              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Controllers\\EventsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EventsController.cs",
-              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Controllers\\EventsController.cs",
-              "RelativeToolTip": "Controllers\\EventsController.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAuwGoAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T11:51:26.225Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -379,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
@@ -391,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Events\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Events\\Edit.cshtml",
@@ -403,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Bookings\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Bookings\\Index.cshtml",
@@ -415,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -427,19 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Models\\Booking.cs",
-              "RelativeDocumentMoniker": "Models\\Booking.cs",
-              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Models\\Booking.cs",
-              "RelativeToolTip": "Models\\Booking.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T09:06:49.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -451,19 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Models\\Event.cs",
-              "RelativeDocumentMoniker": "Models\\Event.cs",
-              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Models\\Event.cs",
-              "RelativeToolTip": "Models\\Event.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T12:54:05.191Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "EventEase.csproj",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\EventEase.csproj",
               "RelativeDocumentMoniker": "EventEase.csproj",
@@ -475,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -487,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -499,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -511,19 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "BookingsController.cs",
-              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Controllers\\BookingsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BookingsController.cs",
-              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Controllers\\BookingsController.cs",
-              "RelativeToolTip": "Controllers\\BookingsController.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAmwCQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T11:50:54.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Events\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Events\\Details.cshtml",
@@ -535,19 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Events\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Events\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Events\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Events\\Delete.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAEBVwBoAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T12:56:28.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Events\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Events\\Index.cshtml",
@@ -556,18 +570,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-10T12:47:13.293Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Events\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Events\\Create.cshtml",
-              "ToolTip": "C:\\Users\\adria\\OneDrive\\Documentos\\GitHub\\clddev-poe-part-1-ST10470517-Adrian-Fischer\\EventEase\\Views\\Events\\Create.cshtml",
-              "RelativeToolTip": "Views\\Events\\Create.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBZwCIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T12:55:52.18Z"
             },
             {
               "$type": "Document",

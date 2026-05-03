@@ -11,6 +11,23 @@
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div class="alert alert-danger">
+                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        <p>⚠️ @error.ErrorMessage</p>
+                    }
+                </div>
+            }
+            @if (ViewBag.Debug != null)
+            {
+                <div class="alert alert-info">@ViewBag.Debug</div>
+            }
+            @if (ViewBag.ExistingCount != null)
+            {
+                <div class="alert alert-warning">@ViewBag.ExistingCount</div>
+            }
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="VenueId" class="control-label"></label>

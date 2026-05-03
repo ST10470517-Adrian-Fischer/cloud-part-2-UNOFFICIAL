@@ -127,9 +127,20 @@ namespace EventEase.Controllers
 
             var venue = await _context.Venues
                 .FirstOrDefaultAsync(m => m.VenueId == id);
+
             if (venue == null)
             {
                 return NotFound();
+            }
+
+            // Check if venue has active bookings
+            var hasBookings = await _context.Bookings
+                .AnyAsync(b => b.VenueId == id);
+
+            if (hasBookings)
+            {
+                ViewBag.Warning = "This venue has active bookings and cannot be deleted. " +
+                                 "Please remove all associated bookings first.";
             }
 
             return View(venue);
@@ -140,10 +151,24 @@ namespace EventEase.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var venue = await _context.Venues.FindAsync(id);
-            if (venue != null)
+            // Check for active bookings first
+            var hasBookings = await _context.Bookings
+                .AnyAsync(b => b.VenueId == id);
+
+            if (hasBookings)
             {
-                _context.Venues.Remove(venue);
+                var venue = await _context.Venues
+                    .FirstOrDefaultAsync(m => m.VenueId == id);
+
+                ViewBag.Warning = "This venue has active bookings and cannot be deleted. " +
+                                 "Please remove all associated bookings first.";
+                return View(venue);
+            }
+
+            var venueToDelete = await _context.Venues.FindAsync(id);
+            if (venueToDelete != null)
+            {
+                _context.Venues.Remove(venueToDelete);
             }
 
             await _context.SaveChangesAsync();

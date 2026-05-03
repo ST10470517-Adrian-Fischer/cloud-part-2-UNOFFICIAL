@@ -132,9 +132,20 @@ namespace EventEase.Controllers
             var @event = await _context.Events
                 .Include(b => b.Venue)
                 .FirstOrDefaultAsync(m => m.EventId == id);
+
             if (@event == null)
             {
                 return NotFound();
+            }
+
+            // Check if event has active bookings
+            var hasBookings = await _context.Bookings
+                .AnyAsync(b => b.EventId == id);
+
+            if (hasBookings)
+            {
+                ViewBag.Warning = "This event has active bookings and cannot be deleted. " +
+                                 "Please remove all associated bookings first.";
             }
 
             return View(@event);
@@ -145,10 +156,25 @@ namespace EventEase.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var @event = await _context.Events.FindAsync(id);
-            if (@event != null)
+            // Check for active bookings first
+            var hasBookings = await _context.Bookings
+                .AnyAsync(b => b.EventId == id);
+
+            if (hasBookings)
             {
-                _context.Events.Remove(@event);
+                var @event = await _context.Events
+                    .Include(b => b.Venue)
+                    .FirstOrDefaultAsync(m => m.EventId == id);
+
+                ViewBag.Warning = "This event has active bookings and cannot be deleted. " +
+                                 "Please remove all associated bookings first.";
+                return View(@event);
+            }
+
+            var eventToDelete = await _context.Events.FindAsync(id);
+            if (eventToDelete != null)
+            {
+                _context.Events.Remove(eventToDelete);
             }
 
             await _context.SaveChangesAsync();

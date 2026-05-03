@@ -62,10 +62,58 @@ namespace EventEase.Controllers
         {
             if (ModelState.IsValid)
             {
+                // Get the selected event with its dates
+                var selectedEvent = await _context.Events
+                    .FirstOrDefaultAsync(e => e.EventId == booking.EventId);
+
+                if (selectedEvent == null)
+                {
+                    ModelState.AddModelError("", "Selected event does not exist.");
+                    ViewData["EventId"] = new SelectList(_context.Events, "EventId", "EventId", booking.EventId);
+                    ViewData["VenueId"] = new SelectList(_context.Venues, "VenueId", "VenueId", booking.VenueId);
+                    return View(booking);
+                }
+
+                if (selectedEvent.Startdate == null || selectedEvent.Enddate == null)
+                {
+                    ModelState.AddModelError("", "The selected event does not have start/end dates. Please update the event first.");
+                    ViewData["EventId"] = new SelectList(_context.Events, "EventId", "EventId", booking.EventId);
+                    ViewData["VenueId"] = new SelectList(_context.Venues, "VenueId", "VenueId", booking.VenueId);
+                    return View(booking);
+                }
+
+                // Pull all bookings at this venue into memory first, then check overlap
+                var bookingsAtVenue = await _context.Bookings
+                    .Include(b => b.Event)
+                    .Where(b => b.VenueId == booking.VenueId && b.EventId != booking.EventId)
+                    .ToListAsync();
+
+                // Now check for date overlaps in memory (avoids DateOnly EF Core issues)
+                var conflict = bookingsAtVenue.FirstOrDefault(b =>
+                    b.Event != null &&
+                    b.Event.Startdate != null &&
+                    b.Event.Enddate != null &&
+                    b.Event.Startdate <= selectedEvent.Enddate &&
+                    b.Event.Enddate >= selectedEvent.Startdate
+                );
+
+                if (conflict != null)
+                {
+                    ModelState.AddModelError("",
+                        $"⚠️ Booking conflict! '{conflict.Event!.EventName}' is already booked at this venue " +
+                        $"from {conflict.Event.Startdate} to {conflict.Event.Enddate}. " +
+                        $"Please choose a different venue or a non-overlapping date.");
+                    ViewData["EventId"] = new SelectList(_context.Events, "EventId", "EventId", booking.EventId);
+                    ViewData["VenueId"] = new SelectList(_context.Venues, "VenueId", "VenueId", booking.VenueId);
+                    return View(booking);
+                }
+
+                // No conflict - save the booking
                 _context.Add(booking);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
             ViewData["EventId"] = new SelectList(_context.Events, "EventId", "EventId", booking.EventId);
             ViewData["VenueId"] = new SelectList(_context.Venues, "VenueId", "VenueId", booking.VenueId);
             return View(booking);
@@ -103,6 +151,47 @@ namespace EventEase.Controllers
 
             if (ModelState.IsValid)
             {
+                // Get the event being booked
+                var selectedEvent = await _context.Events
+                    .FirstOrDefaultAsync(e => e.EventId == booking.EventId);
+
+                if (selectedEvent == null)
+                {
+                    ModelState.AddModelError("", "Selected event does not exist.");
+                    ViewData["EventId"] = new SelectList(_context.Events, "EventId", "EventId", booking.EventId);
+                    ViewData["VenueId"] = new SelectList(_context.Venues, "VenueId", "VenueId", booking.VenueId);
+                    return View(booking);
+                }
+
+                // Check for overlapping bookings (exclude current booking)
+                if (selectedEvent.Startdate != null && selectedEvent.Enddate != null)
+                {
+                    var overlappingBooking = await _context.Bookings
+                        .Include(b => b.Event)
+                        .Where(b =>
+                            b.Bookingid != booking.Bookingid &&        // Exclude current booking
+                            b.VenueId == booking.VenueId &&            // Same venue
+                            b.EventId != booking.EventId &&             // Different event
+                            b.Event.Startdate != null &&
+                            b.Event.Enddate != null &&
+                            b.Event.Startdate <= selectedEvent.Enddate &&
+                            b.Event.Enddate >= selectedEvent.Startdate
+                        )
+                        .FirstOrDefaultAsync();
+
+                    if (overlappingBooking != null)
+                    {
+                        var conflictingEvent = overlappingBooking.Event;
+                        ModelState.AddModelError("",
+                            $"Booking conflict! '{conflictingEvent.EventName}' is already booked at this venue " +
+                            $"from {conflictingEvent.Startdate} to {conflictingEvent.Enddate}. " +
+                            $"Please choose a different venue or date.");
+                        ViewData["EventId"] = new SelectList(_context.Events, "EventId", "EventId", booking.EventId);
+                        ViewData["VenueId"] = new SelectList(_context.Venues, "VenueId", "VenueId", booking.VenueId);
+                        return View(booking);
+                    }
+                }
+
                 try
                 {
                     _context.Update(booking);
@@ -121,6 +210,7 @@ namespace EventEase.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+
             ViewData["EventId"] = new SelectList(_context.Events, "EventId", "EventId", booking.EventId);
             ViewData["VenueId"] = new SelectList(_context.Venues, "VenueId", "VenueId", booking.VenueId);
             return View(booking);
